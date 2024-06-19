@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameByte</title>
+
+    <base href="http://localhost/GameByte/home">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
 
 </head>
+
 <body>
 
     <Header class="header">
-        <a href="home" title="Home" class="header-logo">
-        <img src="imagens/logo.png" alt="GameByte"></a>
+        <a href="index.php?pg=home" title="Home" class="header-logo" data-aos="fade-left">
+            <img src="imagens/Logo.png" alt="GameByte"></a>
 
-        <a href="javascript:showMenu()" title="Mostrar Menu" class="header-menu">
+        <a href="javascript:showMenu()" title="Mostrar Menu" class="header-menu" data-aos="fade-right">
 
-        <img src="imagens/menu.webp" alt="Menu"></a>
+            <img src="imagens/menu.webp" alt="Menu"></a>
 
-        <nav class="header-nav">
+        <nav class="header-nav" data-aos="fade-right">
             <ul>
-                <li><a href="home" title="home">Pagina Inicial</a></li>
-                <li><a href="Quem-Somos" title="Quem Somos">Quem Somos</a></li>
-                <li><a href="Lancamentos" title="Lançamentos">Lançamentos</a></li>
-                <li><a href="Contatos" title="home">Contatos</a></li>
+                <li><a href="index.php?pg=home" title="home">Pagina Inicial</a></li>
+                <li><a href="index.php?pg=quemsomos" title="Quem Somos">Quem Somos</a></li>
+                <li><a href="index.php?pg=lancamento" title="Lançamentos">Lançamentos</a></li>
+                <li><a href="index.php?pg=contato" title="home">Contatos</a></li>
             </ul>
         </nav>
     </Header>
@@ -34,45 +41,38 @@
 
 
     <main>
-<?php
-     
-     if (isset($_GET["param"])){
-         $param = $_GET["param"];
-         //separar o parametro por /
-         $p = explode("/", $param);
- 
-         //print_r($p);
-     }
- 
-     $page = $p[0] ?? "home";
-     $jogo = $p[1] ?? NULL;
- 
-     if ($page == "jogo"){
-            $pagina = "jogo/{$jogo}.php";
-     }else {
-       $pagina = "paginas/{$page}.php";
- 
-     }
- 
-     //verificar se a pagina existe 
- 
-     if (file_exists($pagina)){
-         include $pagina;
-     } else{
-         include "paginas/erro.php";
-     }
-     ?>
-     </main>
+        <?php
+        $pg = $_GET["pg"] ?? "home";
+        $paginas = "Paginas/{$pg}.php";
 
-     <footer class="footer">
+        if (file_exists($paginas)) {
+            include $paginas;
+        } else {
+            include "Paginas/erro.php";
+        }
+
+        ?>
+    </main>
+    
+    </div>
+
+    <footer class="footer">
         <h2>Desenvolvido por Gabriel Mastracose</h2>
-     </footer>
+    </footer>
 
-     <script>
-        function showMenu(){
+    <script src="js/aos.js"></script>
+    <script src="js/fslightbox.js"></script>
+
+    <script>
+        AOS.init();
+
+        function showMenu() {
             var menu = document.querySelector(".header-nav");
             menu.classList.toggle("show");
         }
-     </script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
+
 </html>

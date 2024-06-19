@@ -41,9 +41,19 @@ body{
         }
     }
 }
+.navbar {
+    background:#121212;
+   
+
+}
+
+.nav-link{
+color:#46A2BC;
+
+}
 
 h1{
-    color:#F4E05D;
+    color:#46A2C7;
     text-align: center;
 }
 
@@ -57,12 +67,13 @@ h2{
 }
 .header {
     background: $primary;
-    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000000;
     width: 100%;
     position:fixed ;
     padding: 15px;
     box-sizing: border-box;
     top: 0;
+    z-index: 9;
     & &-logo{
         float: left;
         img{
