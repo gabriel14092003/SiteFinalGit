@@ -1,39 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nossa Equipe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-<div class="container d-flex justify-content-center">
-    <nav class="navbar navbar-expand-lg ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-         Nosso Equipe
-          </a>
-          <ul class="dropdown-menu ">
-            <li><a class="dropdown-item " href="#">Gabriel Mastracose</a></li>
-            <li><a class="dropdown-item" href="#">Alana kavoski</a></li>
-            <li><a class="dropdown-item" href="#"> Samuel Hernades</a></li>
-            <li><a class="dropdown-item" href="#">Paulo Bola</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true"></a>
-        </li>
-      </ul>
-     
+    <div class="container" data-aos="fade-left">
+        <h1>Nossa Equipe de Desenvolvedores</h1>
+        <div class="flex">
+            <div class="flex-coluna">
+              <img src="imagens/alana.png" alt="Alana">
+                <h2>Alana Kovalski de Angeli</h2>
+                <p>instagram <br>alanakov</p>
+                <p> idade: 18</p>
+            </div>
+            <div class="flex-coluna">
+                <img src="imagens/gabriel.jpeg" alt="Gabriel">
+                <h2>Gabriel Mastracose</h2>
+                <p>instagram GabrielMastracose</p>
+                <p> idade: 20</p>
+            </div>
+            <div class="flex-coluna">
+                <img src="imagens/gabriel2.png" alt="Desenvolvedor 3">
+                <h2>Gabriel Menechini</h2>
+                <p><p>instagram gabrielmenechini </p>
+                <p> idade: 18 </p></p>
+            </div>
+            <div class="flex-coluna">
+                <img src="imagens/gabriel3.png" alt="Desenvolvedor 4">
+                <h2> Gabriel Speciam</h2>
+                <p><p>instagram Gabriel_S.Speciam </p>
+                <p> idade: 18 </p></p>
+            </div>
+            
+        </div>
     </div>
-  </div>
-</nav>
-</div>
-</body>
-</html>
+
+   

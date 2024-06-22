@@ -52,6 +52,22 @@ color:#46A2BC;
 
 }
 
+.flex-game{
+    display: flex;
+    flex-wrap: wrap;
+    & &-imagem {
+        width: 98%;
+        img{
+            width: 100%;
+            border-radius: 10px;
+        
+        }
+    }
+    & &-descricao {
+        width: 98%;
+    }
+}
+
 h1{
     color:#46A2C7;
     text-align: center;
@@ -64,6 +80,76 @@ h2{
 
 .center{
     text-align: center;
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    color: #46A2C7;
+    background: #121212;
+    font: 16px "Chakra Petch", Arial, sans-serif;
+    margin-top: 120px;
+}
+
+/* Container for general layout */
+.container {
+    width: 95%;
+    margin: 30px auto;
+}
+
+/* Flex layout for game releases */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-game {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.flex-game-imagem {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.flex-game-imagem img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.flex-game-descricao {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.flex-game-descricao h2 {
+    color: #46A2C7;
+    margin-bottom: 10px;
+}
+
+.flex-game-descricao p {
+    color: #ccc;
+    line-height: 1.5;
+    margin: 10px 20px;
+}
+
+h1 {
+    color: #46A2C7;
+    text-align: center;
+    margin-bottom: 40px;
 }
 .header {
     background: $primary;
@@ -108,9 +194,12 @@ h2{
     }
 }
 
+
+
 .show{
     display: inline-block !important;
 }
+
 
 .footer{
     background: $primary;
@@ -119,6 +208,88 @@ h2{
     padding: 20px;
     box-sizing: border-box;
     box-shadow: 0 0 10px #000;
+}
+
+.flex-coluna h2 {
+    color: $clear;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.flex-coluna p {
+    text-align: center;
+    margin: 10px 20px;
+    color:$clear;
+    
+    
+    
+}
+
+.flex-coluna img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .footer-links a {
+    margin: 0 10px;
+    color:#46A2BC;
+    
+    
+    
+}
+
+.footer {
+    background: #18181C; /* Use a variável de cor primária */
+    color: #D5D504; /* Cor do texto */
+    padding: 40px 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #000;
+    text-align: left;
+}
+
+.footer h3 {
+    color: $clear;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.footer a:hover img {
+    transform: scale(1.2);
+}
+
+.footer .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espaço entre os links */
+}
+
+@media (max-width: 767px) {
+    .footer {
+        text-align: center;
+    }
 }
 
 @media (min-width: 480px) and(max-width: 1920px) {
@@ -150,6 +321,20 @@ h2{
         & &-coluna{
             width: 23%;
             margin: 6px;
+        }
+    }
+    .flex-game{
+        & &-imagem{
+            width: 30%;
+
+        }
+        & &-descricao{
+            width: 59%;
+            margin: 10px;
+            p {
+                line-height: 25px;
+                margin-bottom: 25px;
+            }
         }
     }
 }

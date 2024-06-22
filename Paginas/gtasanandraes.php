@@ -1,11 +1,11 @@
 <div class="container">
-    <h2>Gta SanAndreas</h2>
+    <h2>GTA San Andreas</h2>
     <div class="flex-game">
         <div class="flex-game-imagem">
-            <img src="imagens/poster.png" alt="Gta SanAndres">
+            <img src="imagens/poster.png" alt="GTA San Andres">
 
         </div>
-        <div class="flex-game-descricao"></div>
+        <div class="flex-game-descricao">
         <p>Grand Theft Auto®: San Andreas é uma epopeia de ação que transporta os jogadores para a vibrante cidade
              fictícia de Los Santos nos anos 90. Neste retorno a uma era de gangues e crime 
              organizado, você assume o papel de Carl "CJ" Johnson, um ex-membro da gangue Grove Street 

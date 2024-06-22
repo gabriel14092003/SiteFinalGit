@@ -57,8 +57,35 @@
     </div>
 
     <footer class="footer">
-        <h2>Desenvolvido por Gabriel Mastracose</h2>
-    </footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 footer-column">
+                <h3>Redes Sociais</h3>
+                <a href="https://www.instagram.com" title="Instagram" target="_blank">
+                    <img src="imagens/zap.png" alt="Instagram"> Instagram
+                </a>
+                <a href="https://www.whatsapp.com" title="WhatsApp" target="_blank">
+                    <img src="imagens/insta.png" alt="WhatsApp"> WhatsApp
+                </a>
+               
+            </div>
+            <div class="col-md-4 footer-column">
+                <h3>Recursos</h3>
+                <a href="index.php?pg=quemsomos" title="Quem Somos"> Política de privacidade</a>
+                <a href="index.php?pg=lancamento" title="Lançamentos">Empresa</a>
+                <a href="index.php?pg=blog" title="Blog">Blog</a>
+                <a href="index.php?pg=servicos" title="Serviços">Serviços</a>
+            </div>
+            <div class="col-md-4 footer-column">
+                <h3>Contato</h3>
+                <a href="index.php?pg=contato" title="Contatos">GameByteBr@gmail.com</a>
+                <a href="index.php?pg=contato" title="Contatos">Fale Conosco</a>
+                <a href="index.php?pg=trabalhe-conosco" title="Trabalhe Conosco">Central SAC:
+                (44)9751-5116</a>
+            </div>
+        </div>
+    </div>
+</footer>
 
     <script src="js/aos.js"></script>
     <script src="js/fslightbox.js"></script>

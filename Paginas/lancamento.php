@@ -1,50 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" data-aos="fade-right">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Lançamentos - GameByte</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/aos.css">
 </head>
-
 <body>
-    
-
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="imagens/reddead.png" class="d-block w-85" alt="red">
+    <div class="container">
+        <h1>Últimos Lançamentos</h1>
+        
+        <div class="flex flex-game" data-aos="fade-right">
+            <div class="flex-game-imagem">
+               <img src="imagens/red3.webp" alt="red">
             </div>
-            <div class="carousel-item">
-                <img src="imagens/gta6.png" class="d-block w-85" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="imagens/bo6.png" class="d-block w-85" alt="...">
+            <div class="flex-game-descricao">
+                <h2> Red Dead Redemption 3</h2>
+                <p> Red Dead Redemption 3®: é o mais recente capítulo da aclamada série de faroeste da Rockstar Games. Ambientado no final do século XIX, durante a transição dos Estados Unidos para a modernidade, o jogo oferece uma imersão profunda em um vasto e detalhado mundo aberto, mantendo a tradição de seus antecessores.</p>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="flex flex-game"data-aos="fade-right">
+            <div class="flex-game-imagem">
+               <Img src="imagens/gta.png" alt="GTA 6">
+            </div>
+            <div class="flex-game-descricao">
+                <h2>Grand Theft Auto VI</h2>
+                <p>GTA 6®: é a aguardada nova edição da icônica série de ação e aventura da Rockstar Games. Este jogo leva os jogadores a um mundo aberto ainda mais expansivo e detalhado, ambientado em uma metrópole vibrante inspirada em diversas cidades reais.</p>
+            </div>
+        </div>
+        <div class="flex flex-game "data-aos="fade-right">
+            <div class="flex-game-imagem pt-4">
+                <img src="imagens/ghost.png" alt="ghost">
+            </div>
+            <div class="flex-game-descricao ">
+                <h2>Ghost of Tsushima 2</h2>
+                <p>Ghost of Tsushima 2®: é um aclamado jogo de ação e aventura da Sucker Punch Productions, ambientado no final do século XIII durante a invasão mongol ao Japão. O jogador assume o papel de Jin Sakai, um samurai que luta para defender sua terra natal, a ilha de Tsushima, da invasão inimiga. O jogo combina um mundo aberto vasto e belíssimo com uma narrativa envolvente e combates intensos</p>
+            </div>
+        </div>
     </div>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
 </body>
-
 </html>
