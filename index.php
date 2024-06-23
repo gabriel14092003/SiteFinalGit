@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <link rel="shortcut icon" href="imagens/plat.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/aos.css">
 
@@ -61,26 +61,25 @@
         <div class="row">
             <div class="col-md-4 footer-column">
                 <h3>Redes Sociais</h3>
-                <a href="https://www.instagram.com" title="Instagram" target="_blank">
-                    <img src="imagens/zap.png" alt="Instagram"> Instagram
-                </a>
-                <a href="https://www.whatsapp.com" title="WhatsApp" target="_blank">
-                    <img src="imagens/insta.png" alt="WhatsApp"> WhatsApp
+                <a href="https://www.whatsapp.com" title="Instagram" target="_blank">
+                    <img src="imagens/zap.png" alt="Instagram">WhatsApp
+                <a href="https://www.instagram.com" title="WhatsApp" target="_blank">
+                    <img src="imagens/insta.png" alt="WhatsApp"> Instagram
                 </a>
                
             </div>
             <div class="col-md-4 footer-column">
                 <h3>Recursos</h3>
-                <a href="index.php?pg=quemsomos" title="Quem Somos"> Política de privacidade</a>
-                <a href="index.php?pg=lancamento" title="Lançamentos">Empresa</a>
-                <a href="index.php?pg=blog" title="Blog">Blog</a>
-                <a href="index.php?pg=servicos" title="Serviços">Serviços</a>
+                <a href="index.php?pg=erro" title="erro"> Política de privacidade</a>
+                <a href="index.php?pg=empresa" title="empresa">Empresa</a>
+                <a href="index.php?pg=erro" title="Blog">Blog</a>
+                <a href="index.php?pg=erro" title="Serviços">Serviços</a>
             </div>
             <div class="col-md-4 footer-column">
                 <h3>Contato</h3>
-                <a href="index.php?pg=contato" title="Contatos">GameByteBr@gmail.com</a>
+                <a href="index.php?pg=erro" title="Contatos">GameByteBr@gmail.com</a>
                 <a href="index.php?pg=contato" title="Contatos">Fale Conosco</a>
-                <a href="index.php?pg=trabalhe-conosco" title="Trabalhe Conosco">Central SAC:
+                <a href="index.php?pg=erro" title="Trabalhe Conosco">Central SAC:
                 (44)9751-5116</a>
             </div>
         </div>
