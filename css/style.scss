@@ -213,7 +213,7 @@ h1 {
 .flex-coluna h2 {
     color: $clear;
     margin-top: 10px;
-    text-align: center;
+    text-align: cen;
 }
 
 .flex-coluna p {
@@ -243,7 +243,6 @@ h1 {
 
 .footer {
     background: #18181C; /* Use a variável de cor primária */
-    color: #D5D504; /* Cor do texto */
     padding: 40px 0;
     box-sizing: border-box;
     box-shadow: 0 0 10px #000;
@@ -341,6 +340,3 @@ h1 {
     }
 }
 
-.grid-container{
-    background-color:#46A2BC;
-}

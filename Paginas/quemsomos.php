@@ -16,6 +16,7 @@
                 <p>instagram <br>alanakov</p>
                 <p> idade: 18</p>
             </div>
+            
             <div class="flex-coluna">
                 <img src="imagens/gabriel.jpeg" alt="Gabriel">
                 <h2>Gabriel Mastracose</h2>
@@ -23,9 +24,9 @@
                 <p> idade: 20</p>
             </div>
             <div class="flex-coluna">
-                <img src="imagens/gabriel2.png" alt="Desenvolvedor 3">
-                <h2>Gabriel Menechini</h2>
-                <p><p>instagram gabrielmenechini </p>
+                <img src="imagens/lucas.png" alt="Desenvolvedor 3">
+                <h2>Lucas Brasso de Morais</h2>
+                <p><p>instagram Lucas.brasso </p>
                 <p> idade: 18 </p></p>
             </div>
             <div class="flex-coluna">
@@ -34,7 +35,8 @@
                 <p><p>instagram Gabriel_S.Speciam </p>
                 <p> idade: 18 </p></p>
             </div>
-            
+
+           
         </div>
     </div>
 

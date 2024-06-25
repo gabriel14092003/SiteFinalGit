@@ -12,31 +12,32 @@
 
 <div class="flex d-flex justify-content-center"data-aos="fade">
     <div class="flex-coluna">
-        <a href="http://localhost/GameByte/construct/flyingchicken/">
+        <a href="http://localhost/GameByte/construct/flyingchicken/"target="_blank">
         <img src="imagens/flyingchicken.png" alt="FlyingChicken"></a>
         <p>Flying Chicken</p>
 </div>
 <div class="flex-coluna">
-<a href="http://localhost/GameByte/construct/MEOWTOPIA/fase1/">
+<a href="http://localhost/GameByte/construct/MEOWTOPIA/fase1/"target="_blank">
         <img src="imagens/meowtopia.png" alt="MeowTopia">
         <p>MeowTopia</p>
 </div>
 <div class="flex-coluna">
-<a href="http://localhost/GameByte/construct/omegacollaps/game/">
+<a href="http://localhost/GameByte/construct/omegacollaps/game/" target="_blank">
         <img src="imagens/omegacollapse.png" alt="Omega Collapse">
         <p>Omega Collapse</p>
 </div>
 <div class="flex-coluna">
-<a href="http://localhost/GameByte/construct/Crimson%20Curse/">
+<a href="http://localhost/GameByte/construct/Crimson%20Curse/"target="_blank">
         <img src="imagens/Crimsoncurse.png" alt="Crimson Curse">
         <p>Crimson Curse</p>
 </div>
 
 
 
+
 <div class="banner" data-aos="fade-right">
     <a href="jogo/Cuphead" title="CupHead">
-    <a href="index.php?pg=lancamento">
+    <a href="index.php?pg=erro">
     <img src="imagens/banner2.jpg" alt="CupHead">
     </a>
 </div>
