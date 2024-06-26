@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameByte</title>
 
-    <base href="http://localhost/GameByte/home">
+    <base href="https://gamesbyte.000webhostapp.com/">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +21,13 @@
 <body>
 
     <Header class="header">
+        <?php
+        $url = "https://gamesbyte.000webhostapp.com/api/games.php";
+
+        $dadosAPI = file_get_contents($url);
+
+        $dadosGame = json_decode($dadosAPI)
+        ?>
         <a href="index.php?pg=home" title="Home" class="header-logo" data-aos="fade-left">
             <img src="imagens/Logo.png" alt="GameByte"></a>
 
